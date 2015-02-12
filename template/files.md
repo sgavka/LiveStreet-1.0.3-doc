@@ -54,7 +54,6 @@
 <a id="2_7_footer_tpl"></a>
 #### footer.tpl ####
 
-
 <a id="2_8_header_tpl"></a>
 #### header.tpl ####
 Минимальная структура:
