@@ -11,8 +11,6 @@ $config['path']['static']['skin']     = '___path.static.root___/templates/skin/_
 {cfg name='path.static.skin'}
 ```
 
-# [zxc](#zxxc)
-
 ### 3.2. Шаблон ###
 ### 3.2.1. Canonical URL ###
 Smarty:
@@ -61,7 +59,7 @@ Smarty:
 {hook run='body_end'}
 ```
 
-###  <a name="zxxc"></a>3.4. Переменные языка ###
+### 3.4. Переменные языка ###
 Переменные языка находятся в масиве ``$aLang``. ``[item]`` надо заменить на нужную переменную.
 ```smarty
 {$aLang.[item]}
