@@ -4,12 +4,12 @@
 
 | Название файла | Описание |
 | -------------------------|---------------|
-| blocks.tpl(#2_1_footer_tpl) | Вывод блоков |
-| blog_list.tpl(#2_2_footer_tpl) | Вывод всех блогов на странице /blogs |
-| comment.tpl(#2_3_footer_tpl) | Вывод комментариев |
-| comment_list.tpl(#2_4_footer_tpl) | Список комментариев расположенный на странице /my/логин/comment/ |
-| comment_paging.tpl(#2_5_footer_tpl) | Пагинация комментариев |
-| comment_tree.tpl(#2_6_footer_tpl) | Шапка комментариев и форма добавления |
+| blocks.tpl | Вывод блоков |
+| blog_list.tpl | Вывод всех блогов на странице /blogs |
+| comment.tpl | Вывод комментариев |
+| comment_list.tpl | Список комментариев расположенный на странице /my/логин/comment/ |
+| comment_paging.tpl | Пагинация комментариев |
+| comment_tree.tpl | Шапка комментариев и форма добавления |
 | [footer.tpl](#2_7_footer_tpl) | Вывод футера и окончание конструкции сайта |
 | [header.tpl](#2_8_header_tpl) | Начало конструкции сайта |
 | header_top.tpl | Шапка на основных страницах сайта |
@@ -51,11 +51,11 @@
 | window_login.tpl | Всплывающее окно авторизации |
 | window_write.tpl | Всплывающее окно выбора вида топика перед его добавлением |
 
-<a id="2_7_footer_tpl"></a>
-#### footer.tpl ####
 
-<a id="2_8_header_tpl"></a>
-#### header.tpl ####
+#### <a name="2_7_footer_tpl"></a>footer.tpl ####
+
+
+#### <a name="2_8_header_tpl"></a>header.tpl ####
 Минимальная структура:
 ```html
 <!DOCTYPE html>
@@ -84,7 +84,6 @@
     {hook run='html_head_end'}
 </head>
 <body>
-
 ```
 
 {hook run='html_head_begin'} -- 
