@@ -11,6 +11,8 @@ $config['path']['static']['skin']     = '___path.static.root___/templates/skin/_
 {cfg name='path.static.skin'}
 ```
 
+# [zxc](#zxc)
+
 ### 3.2. Шаблон ###
 ### 3.2.1. Canonical URL ###
 Smarty:
