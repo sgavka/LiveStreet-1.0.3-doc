@@ -42,3 +42,10 @@
 ```smarty
 {include file='file.tpl' var1='value1'}
 ```
+
+## 2. Функции Smarty и функции LiveStreet
+Тут собрана информация по необходимым для работы функций Smarty и добавленных/переопределённых в LiveStreet.
+
+### date_format
+Про Smarty функцию читайте в официальной [документации](http://www.smarty.net/docsv2/ru/language.modifier.date.format.tpl).
+
