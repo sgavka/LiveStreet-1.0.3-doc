@@ -2,98 +2,51 @@
 
 ## Actions
 ### Ajax
-
-
-* ``public getLastTopics($iCount)``
-* ``public getBlog()``
-* ``public getTagsArray()``
-* ``public getPhotosList()``
-* ``public getIsPay()``
-* ``public getFavouriteUsers()``
-* ``public getItemDateStartStamp()``
-* ``public getItemDateEndStamp()``
-* ``public getIsMultiday()``
-* ``public getIsFavourite()``
-* ``public getAllowEdit()``
-* ``public getVote()``
-* ``public getItemVideoCode()``
-* ``public getSite()``
-* ``public getItemPriceNoFormat()``
-* ``public getItemPrice()``
-* ``public getItemPriceFormat()``
-* ``public getItemPricePrefix($oCatalog)``
-* ``public getEditors()``
-* ``public getEditorsList()``
-* ``public getUsersOnvideo()``
-* ``public getUsersOnvideoList()``
-* ``public getUrl()``
-* ``public getPhotoPath($sWidth, $type)``
-* ``public getAllowDownload($oCatalog)``
-* ``public getRating()``
-* ``protected getReadObj()``
-* ``public getSubscribeNewComment()``
-* ``public getDateReadLast()``
-* ``public getCountCommentNew()``
-* ``public getIsCart()``
-* ``public getIsCompare()``
-* ``public getDescription()``
-* ``public getKeywords()``
-* ``public getItemExtraProp()``
-* ``protected extractExtra()``
-* ``public getExtraField($id)``
-* ``public setExtraField($oPropObj, $data)``
-* ``public cleanExtra()``
-* ``public getItemExtraSelf()``
-* ``public getItemExtraValue($num)``
-* ``protected extractExtraSelf()``
-* ``public setItemExtraValue($num, $data)``
-* ``public setExtraSelf($data)``
-* ``public __construct($aParam)``
-* ``public _getPrimaryKey()``
-* ``public _getPrimaryKeyValue()``
-* ``public _isNew()``
-* ``public _SetIsNew($bIsNew)``
-* ``public Add()``
-* ``public Update()``
-* ``public Save()``
-* ``public Delete()``
-* ``public Reload()``
-* ``public ShowColumns()``
-* ``public ShowPrimaryIndex()``
-* ``protected beforeSave()``
-* ``protected afterSave()``
-* ``protected beforeDelete()``
-* ``protected afterDelete()``
-* ``public getChildren()``
-* ``public getDescendants()``
-* ``public getParent()``
-* ``public getAncestors()``
-* ``public setChildren($aChildren)``
-* ``public setDescendants($aDescendants)``
-* ``public setParent($oParent)``
-* ``public setAncestors($oParent)``
-* ``protected _Method($sName)``
-* ``public _setData($aData)``
-* ``public _getOriginalData()``
-* ``public _getFields()``
-* ``public _getField($sField, $iPersistence)``
-* ``public _getRelations()``
-* ``public _getRelationsData()``
-* ``public _setRelationsData($aData)``
-* ``public __call($sName, $aArgs)``
-* ``public __get($sName)``
-* ``public resetRelationsData($sKey)``
+* ``protected RegisterEvent()``
+* ``public EventAjaxDaoChangeOrder()``
+* ``public EventAjaxDaoChangeOrderProperties()``
+* ``public EventAjaxDaoChangeOrderCategories()``
+* ``public EventAjaxLoadDao()``
+* ``protected EventPreviewText()``
 * ``public Init()``
-* ``public _getData($aKeys)``
-* ``public _getDataOne($sKey)``
-* ``public _getDataArray()``
-* ``public _Validate($aFields, $bClearErrors)``
-* ``public _getValidators($sField)``
-* ``public _createValidators()``
-* ``public _hasValidateErrors($sField)``
-* ``public _getValidateErrors($sField)``
-* ``public _getValidateError($sField)``
-* ``public _addValidateError($sField, $sError)``
-* ``public _clearValidateErrors($sField)``
-* ``public _getValidateScenario()``
-* ``public _setValidateScenario($sValue)``
+* ``protected EventInfoboxInfoBlog()``
+* ``protected EventGeoGetRegions()``
+* ``protected EventGeoGetCities()``
+* ``protected EventVoteComment()``
+* ``protected EventVoteTopic()``
+* ``protected EventVoteBlog()``
+* ``protected EventVoteUser()``
+* ``protected EventVoteQuestion()``
+* ``protected EventFavouriteSaveTags()``
+* ``protected EventFavouriteTopic()``
+* ``protected EventFavouriteComment()``
+* ``protected EventFavouriteTalk()``
+* ``protected EventStreamComment()``
+* ``protected EventStreamTopic()``
+* ``protected EventBlogsTop()``
+* ``protected EventBlogsSelf()``
+* ``protected EventBlogsJoin()``
+* ``protected EventPreviewTopic()``
+* ``protected EventUploadImage()``
+* ``protected EventAutocompleterTag()``
+* ``protected EventAutocompleterUser()``
+* ``protected EventCommentDelete()``
+* ``public __construct(Engine $oEngine, $sAction)``
+* ``protected AddEvent($sEventName, $sEventFunction)``
+* ``protected AddEventPreg()``
+* ``public ExecEvent()``
+* ``public SetDefaultEvent($sEvent)``
+* ``public GetDefaultEvent()``
+* ``protected GetEventMatch($iItem)``
+* ``protected GetParamEventMatch($iParamNum, $iItem)``
+* ``public GetParam($iOffset, $default)``
+* ``public GetParams()``
+* ``public SetParam($iOffset, $value)``
+* ``protected SetTemplate($sTemplate)``
+* ``protected SetTemplateAction($sTemplate)``
+* ``public GetTemplate()``
+* ``public GetActionClass()``
+* ``public GetCurrentEventName()``
+* ``protected EventNotFound()``
+* ``public EventShutdown()``
+* ``public __call($sName, $aArgs)``
