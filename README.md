@@ -3,3 +3,4 @@
 
 ## Разделы
 ### [Шаблон](template/README.md)
+### [Планины](plugins/README.md)
